@@ -2,7 +2,7 @@ function theBeatlesPlay(musicians, instruments) {
   var newArr = []
   for(let i = 0; i < musicians.length; i++) {
     for(let j = 0; j < instruments.length; j++) {
-      newArr.push(musicians[i] + 'play' + instrument[j]);
+      newArr.push(musicians[i] + 'play' + instruments[j]);
       musicians.shift();
     }
   }
@@ -35,7 +35,7 @@ function iLoveTheBeatles(num) {
   var newArr = [];
   var i = 0;
   if (num < 16) {
-    do { 
+    do {
       newArr.push('I love the Beatles!'); i++
   }
 
