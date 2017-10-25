@@ -2,7 +2,7 @@ function theBeatlesPlay(musicians, instruments) {
   var newArr = []
   for(let i = 0; i < musicians.length; i++) {
     for(let j = 0; j < instruments.length; j++) {
-      newArr.push(musicians[i] + 'play' + instruments[j]);
+      newArr.push(musicians[i] + ' play ' + instruments[j]);
       musicians.shift();
     }
   }
